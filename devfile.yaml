@@ -6,10 +6,10 @@ projects:
     git:
       remotes:
         origin: "https://github.com/eclipse-che/che-dashboard.git"
+attributes:
+  controller.devfile.io/bootstrap-devworkspace: true
 components:
   - name: tools
-    attributes:
-      controller.devfile.io/bootstrap-devworkspace: true
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       memoryLimit: 3Gi
