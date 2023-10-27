@@ -6,12 +6,6 @@ projects:
     git:
       remotes:
         origin: https://github.com/odo-devfiles/springboot-ex.git
-  - name: che-dashboard
-    git:
-      remotes:
-        origin: "https://github.com/eclipse-che/che-dashboard.git"
-attributes:
-  controller.devfile.io/bootstrap-devworkspace: true
 components:
   - name: tools
     container:
