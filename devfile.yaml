@@ -11,6 +11,7 @@ components:
     container:
       image: quay.io/aobuchow/universal-developer-image:downstream
       memoryLimit: 3Gi
+      command: ['tail', '-f', '/dev/null' ]
 commands:
   - id: build
     exec:
